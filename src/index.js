@@ -1,5 +1,5 @@
 console.log('hello vanila-js');
 
-import { addDay } from 'date-fns';
+import { addDays } from 'date-fns';
 
-console.log(`tomorrow is ${addDay(new Date(), 1)}`)
+console.log(`tomorrow is ${addDays(new Date(), 1)}`)
